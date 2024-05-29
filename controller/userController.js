@@ -1,7 +1,6 @@
 import User from "../model/userModel.js";
 import bcrypt from "bcrypt";
-// import ReadMore from '../model/ReadMore.js';
-// import Book from '../model/Books.js'; // Assuming your book model file is named Books.js
+
 
 export const registerRoute = async (req, res, next) => {
   const admins = ["admin@123.com"];
