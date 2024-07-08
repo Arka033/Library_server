@@ -28,6 +28,7 @@ const DatabaseConnection = async () => {
 });
 };
 
+
 // MIDDLEWARES.
 app.use(cors(corsOptions));
 app.use(express.json()); // To validate json objects.
