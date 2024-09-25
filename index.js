@@ -31,6 +31,15 @@ const DatabaseConnection = async () => {
 });
 };
 
+app.get("/",(req,res)=>{
+  res.json({
+    projectName:"E-Library management system",
+    author:"AJk",
+    message:"This Home Route"
+
+  })
+})
+
 
 // MIDDLEWARES.
 app.use(cors(corsOptions));
